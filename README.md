@@ -5,8 +5,6 @@
         Data=readgeotiff('Filename');
         [Data Lat Lon]=readgeotiff('Filename');
         [Data Lat Lon]=readgeotiff('Filename',[latlim],[lonlim]);
-
-
    Input :-
         Filename - name/path of the geotiff file
         latlim - latitude limits in the format [minlat maxlat]
